@@ -5,16 +5,17 @@
  * |    |     / __ \|  |\   /  / __ \\___  |\___ \  *
  * |____|    (____  /__| \_/  (____  / ____/____  > *
  *                \/               \/\/         \/  *
- *                      v1.0						*
- * 			  	  (c)Timo Salola 	                *
- *					  10.4.2012                     *
- *                   Muutokset:						*
- *				v1.1								*
- *				-Linkit muutettu 2. vuoteen			*
- *				-Fonttia kasvatettu					*
- *													*
- *				v1.0								*
- *				-Initial release					*
+ *                      v1.1                        *
+ *                 (c)Timo Salola                   *
+ *                    10.4.2012                     *
+ *                                                  *
+ * Muutokset:                                       *
+ * v1.1                                             *
+ * -Linkit muutettu 2. vuoteen                      *
+ * -Fonttia kasvatettu                              *
+ *                                                  *
+ * v1.0                                             *
+ * -Initial release                                 *
  ****************************************************/
 
 var d = new Date(); //Määritellään tämä päivä, voit myäs antaa esimerkiksi Date(2012, 1, 2), joka on TO 2.2.2012(Date(YYYY, (M)M-1, (D)D))
@@ -52,7 +53,7 @@ document.getElementById("tke").setAttribute("href", "http://ressu.lpt.fi/oklukuj
 /**********************************************
 Alhaalla oleva funktio myös toimii yhtälailla kuin ylempikin.
 Kannattaa tutkia funktion ominaisuuksia ennen kuin
-yrittääkorjata" sen virheitä. Tässäapauksessa Date()
+yrittääkorjata sen virheitä. Tässäapauksessa Date()
 osaakin jo ottaa edellisen kuukauden viimeisen päivän,
 jos sille antaa atribuutit (YYYY, MM, 0).
 ***********************************************/
